@@ -2,16 +2,16 @@
 #define DATEFWD_H_
 class Date {
  private:
-  int day;
-  int month;
-  int year;
+  int theDay;
+  int theMonth;
+  int theYear;
 
  public:
   Date(const int day, const int month, const int year);
   ~Date();
-  int day();
-  int month();
-  int year();
+  int day() const;
+  int month() const;
+  int year() const;
 };
 
 #endif  // DATEFWD_H_
