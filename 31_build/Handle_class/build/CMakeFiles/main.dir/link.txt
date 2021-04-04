@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/main.dir/src/Person.cpp.o CMakeFiles/main.dir/src/PersonImpl.cpp.o CMakeFiles/main.dir/src/addrfwd.cpp.o CMakeFiles/main.dir/src/datefwd.cpp.o CMakeFiles/main.dir/main.cpp.o  -o main 

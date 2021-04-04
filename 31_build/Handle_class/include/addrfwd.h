@@ -4,7 +4,7 @@
 
 class Address {
  private:
-  std::string addr;
+  std::string theAddr;
 
  public:
   explicit Address(const std::string& addr);

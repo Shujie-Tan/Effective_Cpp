@@ -1,9 +1,9 @@
 #include "datefwd.h"
 
 Date::Date(const int day, const int month, const int year)
-    : day(day), month(month), year(year) {}
+    : theDay(day), theMonth(month), theYear(year) {}
 Date::~Date() {}
 
-int Date::getDay() { return day; }
-int Date::getMonth() { return month; }
-int Date::getYear() { return year; }
+int Date::day() const { return theDay; }
+int Date::month() const { return theMonth; }
+int Date::year() const { return theYear; }
